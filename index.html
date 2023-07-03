@@ -1,0 +1,153 @@
+<!-- MADE WITH TRUE PASSION AND LOVE BY ARPIT KUMAR PRAJAPATI-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube | WEB |</title>
+    <link rel="shortcut icon" href="video files/ytlogo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="main.js"></script>
+    <div class="navbar">
+        <div class="logo_section">
+            <span class="material-symbols-outlined" id="hammenu">
+                menu
+            </span>
+            <img src="video files/youtubelogo.jpg" width="120px" alt="youtube logo">
+        </div>
+        <div class="searchbar">
+            <input type="search" placeholder="Search">
+            <span class="material-symbols-outlined" id="searchicon">
+                search
+            </span>
+        </div>
+        <div class="account_section">
+            <span class="material-symbols-outlined" id="notify">
+                notifications
+            </span>
+            <span class="material-symbols-outlined" id="addvid">
+                video_call
+            </span>
+            <span class="material-symbols-outlined" id="account">
+                account_circle
+            </span>
+        </div>
+    </div>
+
+    <div class="main_body">
+        <!--MAIN DISPLAY-->
+        <div class="main_video">
+            <video width="900px" controls id="mainvideo">
+                <source type="video/mp4" src="video files/RUNNIN.mp4">
+            </video>
+
+            <!--TITLE-->
+            <div class="video_title">
+                <p id="vidtitle">Assassin's Creeds | AMV | Runnin</p>
+
+                <!--VIEWS AND LIKES-->
+                <div class="viewsNlikes">
+                    <p id="vidviews">106,024,371 views * May 3,2015</p>
+
+                    <div class="icons">
+                        <span class="material-symbols-outlined" id="like">
+                            thumb_up
+                        </span>
+                        <span>LIKE</span>
+                        <span class="material-symbols-outlined" id="dislike">
+                            thumb_down
+                        </span>
+                        <span>DISLIKE</span>
+                        <span class="material-symbols-outlined" id="share">
+                            share
+                        </span>
+                        <span>SHARE</span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <button type="button">SUBSCRIBE</button>
+        </div>
+        <!--SIDE VIDEOS BAR-->
+        <div class="sidevideo">
+            <div class="video_content">
+                <img src="video files/runnin_thumbnail.JPG" width="180px" onclick="changecontent('video files/RUNNIN.mp4','Assassin\'s Creeds | AMV | Runnin','106,024,371 views * May 3,2015')">
+                <p>Assassin's Creeds | AMV | Runnin</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/arms around you_thumbnail.JPG" width="180px" onclick="changecontent('video files/arms around you.mp4','XXXTENTACION & Lil Pump - Arms Around You feat. Maluma & Swae Lee [Official Music Video]','348,923,234 views * Nov 16, 2018')">
+                <p>XXXTENTACION & Lil Pump - Arms Around You feat. Maluma & Swae Lee [Official Music Video]</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/weeknd.JPG" width="180px" onclick="changecontent('video files/weeknd_edit2.mp4','The Weeknd | STARBOY EDIT | Blinding Lights','2,106,432 views * Nov 01, 2020')">
+                <p>The Weeknd | STARBOY EDIT | Blinding Lights</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/fire effect_thumbnail.JPG" width="180px" onclick="changecontent('video files/fire effect.mp4','Fire Effect for VFX | Template | for editing','8,932,432 views * Jan 16, 2014')">
+                <p>Fire Effect for VFX | Template | for editing</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/girls like you_thumbnail.JPG" width="180px" onclick="changecontent('video files/girls like you.mp4','Maroon 5 - Girls Like You ft. Cardi B (Volume 2) (Official Music Video)','736,812,693 views * Oct 16, 2018')">
+                <p>Maroon 5 - Girls Like You ft. Cardi B (Volume 2) (Official Music Video)</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/gow_thumbnail.JPG" width="180px" onclick="changecontent('video files/gow.mp4','God of War: Ascension From Ashes Super Bowl 2013 Commercial - Full Version','15,164,636 views * Feb 1, 2013')">
+                <p>God of War: Ascension "From Ashes" Super Bowl 2013 Commercial - Full Version</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/asthetic.JPG" width="180px" onclick = "changecontent('video files/No idea asthetic.mp4','No Idea - Don Toliver | ASTHETIC EDIT | 2019 VIBES','982,678 views * Nov 23,2020')">
+                <p>No Idea - Don Toliver | ASTHETIC EDIT | 2019 VIBES</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/green screen_thumbnail.JPG" width="180px" onclick="changecontent('video files/green screen.mp4','Green Screen Effect for VFX | Template | for editing','932,432 views * Jan 1, 2015')">
+                <p>Green Screen Effect for VFX | Template | for editing</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/monsoon_thumbnail.JPG" width="180px" onclick="changecontent('video files/monsoon.mp4','Monsoon | Into the Nature | Cinematic Video','294,305 views * Aug 13, 2020')">
+                <p>Monsoon | Into the Nature | Cinematic Video</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/weeknd2.JPG" width="180px" onclick = "changecontent('video files/weeknd_edit.mp4','The Weeknd | EDIT 1080P| Die For You','298,768 views * Sep 27,2020')">
+                <p>The Weeknd | EDIT 1080P| Die For You</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/on_thumbnail.JPG" width="180px" onclick="changecontent('video files/on.mp4','BTS (방탄소년단) \'ON\' Kinetic Manifesto Film : Come Prima','498,538,680 views * Premiered Feb 21, 2020')">
+                <p>BTS (방탄소년단) 'ON' Kinetic Manifesto Film : Come Prima</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/ramuloo_thumbnail.JPG" width="180px" onclick="changecontent('video files/ramuloo.mp4','Ramuloo Ramulaa Full Video Song || Allu Arjun || Trivikram | Thaman S','521,268,105 views * Mar 3, 2020')">
+                <p>Ramuloo Ramulaa Full Video Song || Allu Arjun || Trivikram | Thaman S</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/sorry_thumbnail.JPG" width="180px" onclick="changecontent('video files/sorry.mp4','Justin Bieber - Sorry (PURPOSE : The Movement)','3,566,231,647 views * Oct 23, 2015')">
+                <p>Justin Bieber - Sorry (PURPOSE : The Movement)</p>
+            </div>
+
+            <div class="video_content">
+                <img src="video files/t_thumbnail.JPG" width="180px" onclick="changecontent('video files/t.mp4','Dame Tu Cosita Spanish | Trending video | Dancing Alien','17,392,432 views * Apr 13, 2018')">
+                <p>Dame Tu Cosita Spanish | Trending video | Dancing Alien</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

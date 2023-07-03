@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+hamburger=  <span class="material-symbols-outlined">
+menu
+</span>
+
+Search = <span class="material-symbols-outlined">
+search
+</span>
+
+BELL = <span class="material-symbols-outlined">
+notifications
+</span>
+
+ADD VIDEO = <span class="material-symbols-outlined">
+video_call
+</span>
+
+ACCOUNT = <span class="material-symbols-outlined">
+account_circle
+</span>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+roboto = font-family: 'Roboto', sans-serif;
+
+SHARE = <span class="material-symbols-outlined">
+share
+</span>
+
+LIKE = <span class="material-symbols-outlined">
+thumb_up
+</span>
+
+DISLIKE = <span class="material-symbols-outlined">
+thumb_down
+</span>
